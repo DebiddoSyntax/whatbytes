@@ -55,9 +55,9 @@ export default function Home() {
     setUpdate(!update)
   };
 
-  const [internPercentile, setInternPercentile]= useState(50);
-  const [rank, setRank]= useState(5);
-  const [score, setScore]= useState(5);
+  const [internPercentile, setInternPercentile]= useState(30);
+  const [rank, setRank]= useState(1);
+  const [score, setScore]= useState(10);
   const totalQuestions = 15;
 
   const onSubmit = (data) => {

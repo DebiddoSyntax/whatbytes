@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={sideNav ? 'px-5 z-50 fixed top-[90px] w-[100%] h-[100%] bg-white py-4 shadow-xl ease-in-out duration-800 md:hidden' : 'fixed left-[-100%]'}>
+      <div className={sideNav ? 'px-5 z-50 fixed top-[90px] w-[100%] h-[100%] bg-white py-4 shadow-xl ease-in-out duration-800 lg:hidden' : 'fixed left-[-100%]'}>
           <div className="flex items-center py-5 my-5 w-full md:px-10">
             <TbLayoutDashboardFilled className="text-lg mr-5" />
             <p className="text-base font-semibold">Dashboard</p>
